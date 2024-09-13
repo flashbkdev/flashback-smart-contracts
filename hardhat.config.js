@@ -7,5 +7,10 @@ module.exports = {
     hardhat: {
       chainId: 1337,
     },
+    amoy: {
+      url: "https://rpc-amoy.polygon.technology/",
+      chainId: 80002,
+      accounts: [`${process.env.PRIVATE_KEY}`],
+    }
   },
 };
